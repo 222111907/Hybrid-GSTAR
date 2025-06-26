@@ -16,7 +16,7 @@ st.markdown(
 )
 
 # === LOAD DATA ===
-file_path = "C:/Users/Administrator/OneDrive/Dokumen/SKRIPSI NINIS/forecasting/hasil forecast svr/rekap svr.xlsx"
+file_path = "rekap svr.xlsx"
 fitted_df = pd.read_excel(file_path, sheet_name='fitted value', index_col=0)
 aktual_df = pd.read_excel(file_path, sheet_name='asli', index_col=0)
 ramal_df = pd.read_excel(file_path, sheet_name='forecast', index_col=0)
